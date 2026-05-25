@@ -40,6 +40,6 @@ public class Apple {
 
     public void draw(Graphics g)
     {
-        g.drawImage(appleImage, x, y + GameZone.TOP_PANEL, tileSize, tileSize, null);
+        g.drawImage(appleImage, x, y + GameZone.PANEL, tileSize, tileSize, null);
     }
 }
